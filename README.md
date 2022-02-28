@@ -1,4 +1,4 @@
 # Proyecto final de programación 
-##Nombre: Julio Guzmán Bajaña
+Nombre: Julio Guzmán Bajaña
 
-¿Que es python? 
+# ¿Que es python? 
