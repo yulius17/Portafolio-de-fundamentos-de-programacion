@@ -140,9 +140,26 @@ nombre = "Julio"
 ```
 
 ## Casting en Python
+el casting es aquello que sirve y se utiliza para convertir un tipo de dato a un dato totalmente diferente  osea:
 
+```python
+int a str: str(65)
+str a int: int("1034")
+float a int: int(3.5)
+```
 ## List
-
+list en python son variables que almacenan varios tipos de datos en orden por ejemplo:
+```python
+lista_compras = ["huevos", "pan", "leche", "tocino", 12, 24, 36]
+print(lista_compras)
+[output] [huevos, pan, leche tocino, 12, 24, 36]
+```
 ## Tuple
+una tupla es un conjunto ordenado e inmutable de elementos del mismo o diferente tipo.
+```python
+ejemplo = (1, "a", 1.1, 2, "b", 2.2).
+print(ejemplo)
+[output] (1, a, 1.1, 2, b, 2.2)
+```
 
 ## Dictionary
