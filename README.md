@@ -10,5 +10,6 @@ una variable es la encargada de guardar datos que se utilizan en el codigo que e
 TIPO       |   NOMBRE    |   CONCEPTO
 
 Entero     |   int       |   Representan valores enteros ya sean positivos o negativos
+
 Flotante   |   float     |   Representan valores que contienen numeros despues de un punto osea valores decimales
 
