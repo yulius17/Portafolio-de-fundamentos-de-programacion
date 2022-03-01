@@ -8,6 +8,7 @@ Python es un lenguaje de programación que nos prermite escribir instrucciones d
 una variable es la encargada de guardar datos que se utilizan en el codigo que estemos creando a la cual se le asigna un valor ya sea un valor escrito o numerico, existen varios tipos de variables como por ejemplo:
 
 TIPO       |   NOMBRE    |   CONCEPTO
+
 Entero     |   int       |   Representan valores enteros ya sean positivos o negativos
 Flotante   |   float     |   Representan valores que contienen numeros despues de un punto osea valores decimales
 
