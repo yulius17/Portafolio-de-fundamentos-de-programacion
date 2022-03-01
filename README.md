@@ -7,6 +7,7 @@ Python es un lenguaje de programación que nos prermite escribir instrucciones d
 # Qué es una variable?
 una variable es la encargada de guardar datos que se utilizan en el codigo que estemos creando a la cual se le asigna un valor existen varios tipos de variables como por ejemplo:
 ```python 
-x = 100```
+x = 100
+```
 
 
