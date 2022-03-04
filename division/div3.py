@@ -12,3 +12,5 @@ n4 = 10
 result = ((n1 // n2) - n3) * n4
 
 print(result)
+
+#terminal = 1980
