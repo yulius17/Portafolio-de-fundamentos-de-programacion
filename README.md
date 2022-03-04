@@ -297,11 +297,10 @@ print("programa terminado")
 
 ## Break
 En Python, la instrucción break le proporciona la oportunidad de cerrar un bucle cuando se activa una condición externa. Debe poner la instrucción break dentro del bloque de código bajo la instrucción de su bucle, generalmente después de una instrucción if condicional.
+Ejemplo:
 ```python
+#creamos un ciclo para usar nuestro break
 contador = 0
-
-from contextlib import ContextDecorator
-
 
 for i in range(3):
     for j in range(3):
@@ -324,3 +323,27 @@ print("contador: ", contador)
 ```
 
 ## Continue
+El uso de continue al igual que el ya visto break, nos permite modificar el comportamiento de de los bucles while y for.
+La diferencia entre el break y continue es que el continue no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
+ejemplo:
+```python
+j = 0
+for i in range(10):
+    j += 2
+    print(i, "i", j, "j")
+    if j >= 2 and j <= 18:
+        continue
+print("el valor de J", j)
+[output]0 i 2 j
+        1 i 4 j
+        2 i 6 j
+        3 i 8 j
+        4 i 10 j
+        5 i 12 j
+        6 i 14 j
+        7 i 16 j
+        8 i 18 j
+        9 i 20 j
+        el valor de J 20
+#En este caso al colocar el continue se salta a la siguiente interacción y nos imprime el valor de j
+```
