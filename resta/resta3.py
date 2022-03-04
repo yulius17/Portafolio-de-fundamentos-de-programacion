@@ -8,3 +8,4 @@ n2 = 50
 n3 = 175
 
 print((n1 + n2) - n3)
+#terminal = 175
