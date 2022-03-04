@@ -2,7 +2,7 @@
 Nombre: Julio Guzmán Bajaña
 
 # ¿Que es python? 
-Python es un lenguaje de programación que nos prermite escribir instrucciones dadas por el usuario para solucionar un problema paso a paso,  python se considera un interpretador ya que analiza cada instruccion y permite ejecutar el programa las veces que sean necesarias.
+Python es un lenguaje de programación que nos prermite escribir instrucciones dadas por el usuario para solucionar un problema paso a paso,  python se considera un interpretador ya que analiza cada instruccion, cada valor y cada toma de decisiones y todo esto permite ejecutar el programa las veces que sean necesarias.
 
 # Qué es una variable?
 una variable es la encargada de guardar datos que se utilizan en el codigo que estemos creando a la cual se le asigna un valor ya sea un valor escrito o numerico.
@@ -32,7 +32,26 @@ Tambien al nombrar una variable se recomienda no usar la ( Ñ ) y en algunos cas
 year = 2022
 civilstatus = soltero
 ```
+Al asignar valores tambien existen varios metodos o tipos de asignaciones
 
+```python
+#Asignación en la misma linea:
+x = 2; y = 4; z = 6
+a = 1; b = 2; c = 3
+
+
+#Asignacion multiple:
+day, month, year = "Viernes", "Marzo", 2016
+
+
+#Asignacion del mismo valor
+largo = ancho = 4
+nota1 = nota2 = 6
+
+#Asignacion de intercambio
+base = 20; altura = 40
+base, altura = altura, base
+```
 
 ## Operadores básicos
 ### Suma
@@ -105,6 +124,17 @@ print(modulo)
 [output] 1
 ```
 
+Tambien se toma en cuenta, cuando trabajamos con varias operaciones la prioridad de operadores:
+```python
+x = 1 + 2 * 3 - 4 / 5 ** 6
+#entonces python trabaja asi
+#Parentesis
+#Potencia
+#Multiplicación y division 
+#Suma y resta
+#Operadores iguales que se evaluan de derecha a izquierda
+```
+
 # Tipos de datos en Python
 ° Numericos
 
@@ -170,3 +200,39 @@ Dentro del diccionario que tenemos que saber en python al programar estan las si
 #import in input is lambda next not or pass
 #print raise return try while yield
 ```
+# Tomando decisiones
+Para la toma de desiciones en python son encesarias ciertas palabras que nos permiten dirigir el rumbo de nuestro programa asignando una o varias condiciones.
+
+## Sentencia if
+`IF` es una estructura de control que ejecuta el programa cuando se cumpla cierta condición de dato Booleano.
+
+## Sentencia elif
+`ELIF` es la estructura que permite encadenar varias condiciones dependiendo de si se cumplen o no.
+
+## Sentencia else
+`ELSE` significa `de lo contrario` y se cumple son evaluar ninguna expresion condicional, entonces ejecuta el bloque de sentencias seguidas.
+
+
+Aqui unos ejemplos:
+```python 
+#podemos usar estas condiciones para averiguar si un numero es par o impar
+#aqui hacemos que el usuario seleccione el numero a evaluar
+
+n = int(input("ingrese un numero": ))
+
+if n %2 == 0:
+        print(n, "es par")
+else: 
+    print(n,"es impar")
+#
+```
+    
+    
+    
+## Ciclo For
+
+## Ciclo While
+
+## Break
+
+## Continue
