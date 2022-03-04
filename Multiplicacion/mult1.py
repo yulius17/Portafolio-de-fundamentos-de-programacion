@@ -7,3 +7,5 @@ c = 10
 result = a * b * c
 
 print(result)
+
+#terminal = 250
