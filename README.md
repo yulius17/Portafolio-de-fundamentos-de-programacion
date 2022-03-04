@@ -36,7 +36,7 @@ civilstatus = soltero
 
 ## Operadores básicos
 ### Suma
-su operador es ( + ) y en python se usa de la siguiente manera:
+su operador es `+` y en python se usa de la siguiente manera:
 ```python
 suma = 10 + 11
 print(suma)
@@ -60,7 +60,7 @@ print(suma)
 [output] 20
 ```
 ### Resta
-su operador es ( - ) se usa de la siguiente manera:
+su operador es `-` se usa de la siguiente manera:
 ```python 
 a = 5
 b = 4
@@ -70,7 +70,7 @@ print(resta)
 ```
 
 ### Multiplicación
-su operador es * se usa de la siguiente manera:
+su operador es `*` se usa de la siguiente manera:
 ```python
 a = 5
 b = 5
@@ -79,7 +79,7 @@ print(multiplicacion)
 [output] 25
 ```
 ### División
-su operador es / tambien existe la division entera el cual su operador es //
+su operador es `/` tambien existe la division entera el cual su operador es //
 ```python
 a = 10
 b = 2
@@ -96,7 +96,7 @@ print(div_entera)
 [output] 6
 ```
 ### Módulo
-su operador es % se usa asi:
+su operador es `%` se usa asi:
 ```python 
 a = 11
 b = 2
@@ -163,3 +163,10 @@ print(ejemplo)
 ```
 
 ## Dictionary
+Dentro del diccionario que tenemos que saber en python al programar estan las siguientes palabras:
+```python 
+#and assert break class continue def del elif
+#else except exec finally for from global if
+#import in input is lambda next not or pass
+#print raise return try while yield
+```
