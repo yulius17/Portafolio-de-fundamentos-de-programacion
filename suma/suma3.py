@@ -13,3 +13,5 @@ d = 20
 suma = (a + b + c + d)
 
 print(suma)
+
+#[output] 50
