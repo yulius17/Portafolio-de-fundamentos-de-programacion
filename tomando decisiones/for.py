@@ -1,6 +1,6 @@
-
+#ejercicio for 
 
 n = 10
 
 for i in range(n):
-    print(i, "numero")
+    print(i, "numeros")
